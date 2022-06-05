@@ -44,11 +44,9 @@
     position: absolute;
     color: #fff;
     font-size: 35px;
-    /* Выравнивание текста по горизонтали и по вертикали*/
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    /* Тень*/
     text-shadow: 1px 1px 1px #000, 0 0 1em #000;
 }
 
@@ -91,4 +89,15 @@
     to {
         opacity: 1
     }
+}
+
+.for-photos{
+    text-align: center;
+    text-decoration-color: var(--text-decoration-color);
+    text-decoration-line: underline;
+    margin-bottom: 20px;
+}
+
+.contact-info__avatar {
+    margin-left: -35%;
 }
