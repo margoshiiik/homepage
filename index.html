@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <title>Résumé</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-for-slider.css">
     <script src="https://kit.fontawesome.com/7512ceb34f.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
@@ -101,7 +102,6 @@
                   I am a student of Kyiv-Mohyla academy, Software Engineering, second year of study. 
                   I am kinda cool girl: trying to be social active, like to listen to rock music and interested in 
                   web-development. I am also doing stand-ups sometimes and finishing reading "Withcher" right now :)
-                  Have funny tiktok (@margoshiiik)
                 </p>
               </div>
             </div>
@@ -115,6 +115,7 @@
               <h3 class="skills__header">Skills</h3>
               <p class="skills__text">I can prepare a teambuilding for 50 people (because I am a buddy for the first-year students in my uni)
                 and make laught particullary everybody. 
+                Also can make a film photo of you 📸
               </p>
             </div>
           </div>
@@ -132,7 +133,7 @@
                       <li>Have some Java knowgledge</li>
                       <li>Finished EPAM course about web-development as a part of uni program</li>
                       <li>Passing SheCodes courses</li>
-                      <li>Can made tiktoks</li>
+                      <li>Can made <a href="https://www.tiktok.com/@margoshiiik">tiktok</a> </li>
                     </ul>
 
                 </div>
@@ -164,10 +165,60 @@
           </div>
         </div>
 
-        
+
+        <div class="for-photos">
+          <h2>
+            Some of my favourite film photos
+          </h2>
+        </div>
+
+        <div class="slider">
+          <div class="item">
+              <img src="for-slider/0.jpg" alt="first slide">
+          </div>
+      
+          <div class="item">
+              <img src="for-slider/1.jpg" alt="second slide">
+          </div>
+      
+          <div class="item">
+              <img src="for-slider/2.jpg" alt="third slide">
+          </div>
+
+          <div class="item">
+            <img src="for-slider/3.jpg" alt="third slide">
+          </div>
+
+          <div class="item">
+            <img src="for-slider/4.jpg" alt="third slide">
+          </div>
+
+          <div class="item">
+            <img src="for-slider/5.jpg" alt="third slide">
+          </div>
+
+          <div class="item">
+            <img src="for-slider/6.jpg" alt="third slide">
+          </div>
+
+      
+          <a class="prev" onclick="minusSlide()">&#10094;</a>
+          <a class="next" onclick="plusSlide()">&#10095;</a>
+      </div>
+      
+      <div class="slider-dots">
+          <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+          <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+          <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+          <span class="slider-dots_item" onclick="currentSlide(4)"></span> 
+          <span class="slider-dots_item" onclick="currentSlide(5)"></span> 
+          <span class="slider-dots_item" onclick="currentSlide(6)"></span> 
+          <span class="slider-dots_item" onclick="currentSlide(7)"></span> 
+      </div>
+
       </div>
     </main>
 
-
+    <script src="js-for-slider.js"></script>
   </body>
 </html>

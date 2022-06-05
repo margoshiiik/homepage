@@ -263,3 +263,10 @@ body {
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
+
+.for-photos{
+    text-align: center;
+    text-decoration-color: var(--text-decoration-color);
+    text-decoration-line: underline;
+    margin-bottom: 20px;
+}
